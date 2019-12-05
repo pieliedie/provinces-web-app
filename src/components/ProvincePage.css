@@ -5,6 +5,7 @@
   margin: 20px auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .provinces-list {
@@ -35,4 +36,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .provinces-list, .province-details {
+    width: 100%;
+  }
 }
