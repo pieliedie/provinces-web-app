@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import { Table, List, message } from "antd";
 import ProvincesApi from "../services/provinces";
 import "./ProvinceDetails.css";

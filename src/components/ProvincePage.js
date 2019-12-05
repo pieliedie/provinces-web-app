@@ -1,5 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
-import SearchBar from "./SearchBar";
+import React, { useState, useEffect } from "react";
 import ProvinceList from "./ProvinceList";
 import ProvincesApi from "../services/provinces";
 import ProvinceDetails from "./ProvinceDetails";
@@ -67,7 +66,11 @@ export default () => {
         )}
       </div>
       <div className="province-details">
-        <ProvinceDetails districts={districts} province={province} loading={loadingDistricts} />
+        <ProvinceDetails
+          districts={districts}
+          province={province}
+          loading={loadingDistricts}
+        />
       </div>
     </div>
   );

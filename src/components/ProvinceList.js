@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Empty } from "antd";
+import { Table } from "antd";
 
 const ProvinceList = ({ provinces, onProvinceClick }) => {
   const handleClick = id => (e) => {
